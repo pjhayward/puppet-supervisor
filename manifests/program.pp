@@ -24,6 +24,7 @@ define supervisor::program (
   $exitcodes                = '0,2',
   $stopsignal               = 'TERM',
   $stopwait                 = 10,
+  $killasgroup              = 'true',
   $user                     = 'root',
   $group                    = 'root',
   $redirect_stderr          = false,
